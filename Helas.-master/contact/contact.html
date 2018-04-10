@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Contact2</title>
+		<link href="stylecontact.css" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<a href="../nav.html"><img id="photo" src="logo.png" alt="logo"></a>
+			<!--
+			<img id="photo2" src="contenu.jpg" alt="carre">
+			<img id="photo4" src="ligne.jpg" alt="ligne">
+			<img id="photo3" src="ligne.jpg" alt="ligne">
+		-->
+			
+		</header>
+
+		<section class="formulaire">
+			<div class="contact">
+				<h1>Contact / Infos</h1>
+				<form method="post" action="traitement.php">
+				<p>
+				<label for="name">Name</label><br />
+				<textarea name="name" id="name"></textarea>
+				</p>
+				<p class="souligne">
+				</p>
+				</form>
+				<form method="post" action="traitement.php">
+				<p  class="souligne">
+				<label for="e-mail">E-mail</label><br />
+				<textarea name="e-mail" id="e-mail"></textarea>
+				</p>
+				<p> 
+					Subject                          
+				</p>
+				</form>
+				<div class="saisie">
+				<form method="post" action="traitement.php">
+				<textarea name="ameliorer" id="ameliorer" rows="10" cols="50">
+				</textarea>
+				</div>
+				<div class="envoyer">
+				<input type="submit" value="Envoyer" />
+				</div>
+			</div>
+			<div class="adresse">
+				<h2>
+					INFO@CAPS.COM 
+				</h2>
+				<h2>
+					20 rue de la république </br>
+					69002 LYON
+				</h2>
+			</div>
+		</section>
+
+	</body>
+</html>

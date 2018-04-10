@@ -1,0 +1,148 @@
+#header
+{
+    z-index: 3;
+    position: fixed;
+    left: 45%;
+    right: 55%;
+}
+
+.mySlides 
+{
+    z-index: 1;
+    display:none;
+    min-width: 100%;
+    max-height: 80%;
+
+}
+
+.section 
+{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 120%;
+    top: 1px;
+    left: 1px;
+    margin: 1%;
+}
+
+.rot
+{
+   -webkit-transform: rotate(-180deg); 
+   -moz-transform: rotate(-180deg);    
+
+    z-index: 3;
+    writing-mode: vertical-lr;
+    display: block;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+    
+    
+    padding: 50px 45px;
+    text-decoration: none;
+
+}
+
+ul 
+{
+    z-index: 3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: none;    
+}
+
+.rot:hover 
+{
+    text-decoration: underline;
+}
+
+
+.sous-menu
+{
+    position: fixed;
+    display: block;
+    background: black;
+    width: 100px;
+    height: 100%;
+    top: 0%;
+    z-index: 2;
+}
+
+/* Dropdown shop */
+
+
+ .panneau-shop 
+ {  
+    position: fixed;
+    display: none;
+    background: none;
+    max-width: 70%;
+    max-height: 60%;
+    left: 120px;
+    top:20%;
+    z-index: 2;
+ }
+
+  .panneau-mixtape 
+ {  
+    position: fixed;
+    display: none;
+    background: none;
+    max-width: 70%;
+    max-height: 60%;
+    left: 120px;
+    top:5%;
+    z-index: 2;
+ }
+
+  .panneau-collection 
+ {  
+    position: fixed;
+    display: none;
+    background: none;
+    max-width: 70%;
+    max-height: 60%;
+    left: 120px;
+    top:35%;
+    z-index: 2;
+ }
+
+ .bouton
+ {  
+    display: block;
+    background: none;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    height: 100px;
+
+    color:white;
+    font-size: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    border:0px;
+}
+
+.bouton a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.bouton:hover 
+{
+    background: black;
+}
+
+.nav ul li:hover ul
+{
+   display: block;
+}
